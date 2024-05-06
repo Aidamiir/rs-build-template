@@ -1,0 +1,19 @@
+{
+  "name": "m",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "rsbuild dev --open",
+    "build": "rsbuild build",
+    "preview": "rsbuild preview"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "^0.6.9",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "@rsbuild/plugin-pug": "^0.6.11",
+    "sass": "^1.76.0",
+    "sass-loader": "^14.2.1"
+  }
+}
