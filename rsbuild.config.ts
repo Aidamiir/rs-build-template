@@ -1,7 +1,9 @@
 import { defineConfig } from '@rsbuild/core'
+import { pluginPug } from '@rsbuild/plugin-pug'
 
 export default defineConfig({
 	html: {
-		template: './static/index.html',
-	},
+		template: './src/index.pug',
+	  },
+	plugins: [pluginPug()],
 })
